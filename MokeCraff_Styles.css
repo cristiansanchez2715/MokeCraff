@@ -1,0 +1,231 @@
+
+ body{
+
+    font-family: 'titanOne-regular.ttf', cursive;
+    background-color: darkgreen
+   
+}
+.titulo {
+    color: white;
+    width: 310px;
+    height: 95px;
+}
+
+.subtitulo{
+color: white
+}
+
+.tarjetas{
+    display: flex;
+    gap: 10px
+}
+
+#seleccionar_Mascota {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white
+      }
+
+      .tarjeta_De_Mokepon{
+        width: 180px;
+        height: 100px;
+        background: rgb(40, 252, 40);
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 20px;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .tarjeta_De_Mokepon img {
+        width: 80px;
+    }
+
+    #boton_Mascota {
+
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+    border: 2px solid black;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px;
+}
+     
+input{
+  display: none;
+}
+
+      input:checked + label{
+        background-color: darkblue;
+      }
+
+      #Seleccionar_Ataque {
+       display: flex;
+       flex-direction: column; 
+       align-items: center;
+      }
+
+      #section_vidas_mascota {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+      }
+
+      .boton_ataque {
+        width: 80px;
+        height: 40px;
+        background-color: rgb(35, 240, 35);
+        border-radius: 20px;
+        margin: 10px;
+        font-family: 'Poppins', sans-serif;
+      }
+
+      
+
+      #seccion_Combate {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+      }
+
+      #resultado {
+      width: 150px;
+      background: green;
+      padding: 20px;
+      margin-top: 20px
+      border-radius: 20px
+      }
+
+      #reiniciar{display: flex;
+        flex-direction: column;
+        align-items: center;
+
+      }
+
+#boton_reiniciar {
+   width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+    border: 2px solid black;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px;
+    justify-content: center;
+}
+
+#seccion_ataques {
+  display: grid;
+  grid-template-columns: 200px 100px;
+}
+
+
+#ver_mapa {
+display: flex;
+flex-direction: column;
+align-items: center:
+justify-content: center;
+}
+
+
+// #ver_mapa {
+  
+
+}
+
+#boton_arriba{
+  width: 180px;
+      height: 40px;
+      border-radius: 20px;
+      background: transparent;
+      color: white;
+      border: 2px solid black;
+      font-family: 'Poppins', sans-serif;
+      margin: 30px;
+}
+
+#boton_derecha{
+  display: flex;
+  width: 180px;
+      height: 40px;
+      border-radius: 20px;
+      background: transparent;
+      color: white;
+      border: 2px solid black;
+      font-family: 'Poppins', sans-serif;
+      margin: 30px;
+      align-items: center;
+    justify-content: center;
+}
+
+#boton_abajo{
+  display: flex;
+  width: 180px;
+      height: 40px;
+      border-radius: 20px;
+      background: transparent;
+      color: white;
+      border: 2px solid black;
+      font-family: 'Poppins', sans-serif;
+      align-items: center;
+      justify-content: center;
+
+}
+
+#boton_izquierda{
+  display: flex;
+  width: 180px;
+      height: 40px;
+      border-radius: 20px;
+      background: transparent;
+      color: white;
+      border: 2px solid black;
+      font-family: 'Poppins', sans-serif;
+      margin: 30px;
+      align-items: center;
+      justify-content: center;
+}
+
+#botones_movimiento{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  padding: 16px;
+
+}
+
+#boton_arriba1{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 360px) {
+  .tarjetas {
+    flex-direction: column;
+  }  }
+  .boton_ataque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }  
+  @media (max-width: 500px) {
+    #botones_movimiento div {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+}
+
+ 
+ 

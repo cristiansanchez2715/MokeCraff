@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta chaarset="utf-8" />
+        <tittle>MokeCraff!</tittle>
+        
+        <link rel="stylesheet" href="./MokeCraff_Styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    </head>
+    <body>
+        
+
+        <section id = "seleccionar_Mascota" >
+
+        <h1 id = "titulo1" class="titulo">MokeCraff!🔥💧🏔️</h1>
+        <h2 class="subtitulo">Elige tu mascota:</h2>
+
+        <div id= 'contenedorTarjetas' class= "tarjetas"> 
+           
+
+        </div>
+
+       
+
+         
+         <button id="boton_Mascota">Seleccionar</button>
+        </section>
+
+        <section id= "ver_mapa">
+             <h2 class= 'subtitulo'> Recorre el mapa de MokeCraff con tu Mokepon</h2>
+             <canvas id= 'mapa'></canvas>
+             <div id= "boton_arriba1">
+             <button onmouseup= 'detenerMovimiento()' onmousedown = moverArriba() id="boton_arriba">Arriba</button>
+             </div><div id= "botones_movimiento">
+             <button onmouseup= 'detenerMovimiento()' onmousedown = moverDerecha() id= "boton_derecha">Derecha</button>
+             <button onmouseup= 'detenerMovimiento()' onmousedown = moverAbajo() id= "boton_abajo">Abajo</button>
+             <button onmouseup= 'detenerMovimiento()' onmousedown = moverIzquierda() id= "boton_izquierda">Izquierda</button>
+            </div>
+           
+        </section>
+
+
+        <section id= "Seleccionar_Ataque">
+
+            <h1 id = "titulo1" class="titulo">MokeCraff!🔥💧🏔️</h1>
+            <h2 class= "subtitulo">Elige tu ataque</h2>
+<div id='contenedorAtaques' class= 'tarjeta_Ataques'>
+            
+                
+            </div>
+           
+            <div>
+            <section id="mensajes">
+              
+            </section>
+    
+                </section>
+                <section id="seccion_Combate">
+                    <p id="resultado">Buena Suerte!!</p>
+                 
+                    
+
+ 
+                </section>
+                  
+                
+                <section id= "reiniciar"> 
+                <button id=  "boton_reiniciar"> Reiniciar</button>
+            </section>
+        
+
+            </div>
+             
+            <div id= "section_vidas_mascota"> 
+                 <section id= "seccion_ataques">
+                 <div class= "ataques"> 
+                 <div class= "ataques_jugador"></div>
+               
+
+                 <p id="mascota_jugador"> </p>
+                 <p id= "victorias_jugador">0</p>
+                 <div id="ataques_Del_Jugador"></div></div>
+                 
+
+            
+                 <div class= "ataques">
+               
+
+                 <p id="mascota_enemigo"></p>
+                 <p id= "victorias_enemigo">0<p>
+
+                    <div id="ataques_Del_Enemigo"></div> 
+                   
+               
+               </div>
+           </div>
+</div>
+</section>
+        </section>
+
+        <script src="./js/MokeCraff.js"></script>
+    
+    </body>
+</html>
